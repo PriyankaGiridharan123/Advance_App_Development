@@ -26,7 +26,7 @@ function UserLogin() {
         <div className="container">
           <div className="header">
             <h1>Job Application Portal</h1>
-            <p>User Login</p>
+            <p>Applicant Login</p>
           </div>
 
           <form>
@@ -51,7 +51,7 @@ function UserLogin() {
               value="LOGIN"
             />
           </form>
-          <Link to="/usersignup">
+          <Link to="/applicantsignup">
             <p>Don't have an account? Register</p>
           </Link>
         </div>

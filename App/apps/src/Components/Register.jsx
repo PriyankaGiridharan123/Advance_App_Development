@@ -110,7 +110,7 @@ const UserRegister= () => {
               value="SIGN UP"
             />
           </form>
-          <Link to="/">
+          <Link to="/applicantlogin">
             <p>Already have an account? Login</p>
           </Link>
         </div>

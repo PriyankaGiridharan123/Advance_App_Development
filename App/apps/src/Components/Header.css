@@ -1,0 +1,51 @@
+.site-header {
+    background-color: #044ab2;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .header-container {
+    background-color:  #044ab2;
+    padding: 20px 0 30px;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-container nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  @media screen and (max-width: 1024px) {
+    .header-container nav a {
+        font-size: 16px; 
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header-container {
+        padding: 15px 0; 
+    }
+  
+    .header-container nav {
+        flex-direction: column; 
+    }
+  
+    .header-container nav a {
+        margin: 10px 0; 
+    }
+  }
+  

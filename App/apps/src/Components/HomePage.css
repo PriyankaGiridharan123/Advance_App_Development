@@ -1,0 +1,178 @@
+.specific-div {
+    background-color: #f4f6f6d3;
+    color: #135eaf;
+    font-family: 'Avenir Next', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+  
+  .block-image {
+    margin: 15px 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    justify-items: center; 
+  }
+
+  .block-image img {
+    height: auto;
+    max-width: 100%;
+ 
+  }
+  .search-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .search-wrapper {
+    position: relative;
+  }
+  #search-bar {
+    width: 50%;
+    padding: 10px 40px 10px 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+  }
+  .searchIcon {
+    position: absolute;
+    top: 50%;
+    right: 250px;
+    transform: translateY(-50%);
+    color: #135eaf; 
+    cursor: pointer;
+  }
+  .suggestionss {
+    display: flex;
+    justify-content: center;
+  }
+  .suggestionss h1{
+    margin: 0 10px;
+    padding: 3px 10px;
+  }
+  .suggestion {
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #f4f6f6;
+    color: #135eaf;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .suggestion:hover {
+    background-color: #d2d2d2;
+  }
+  .content-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  .right-image {
+    flex: 1;
+    margin-left: 0; 
+  }
+  .wrapper .button {
+    background-color:  #044ab2;
+    color: #ffffff;
+    display: block;
+    margin: 50px auto;
+    padding: 12px 32px 14px 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .wrapper .button:hover {
+    background-color: #d20a0a;
+    color: #000000;
+  }
+  
+  nav a {
+    color: black;
+    display: inline-block;
+    margin: 0 4px;
+    text-decoration: none;
+  }
+  
+  nav a:first-child {
+    margin: 0 4px 0 0;
+  }
+  
+  main {
+    margin: 0 5%;
+  }
+  
+  .home-page {
+    display: grid;
+    font-size: 24px;
+    grid-template-columns: 1fr; 
+    line-height: 1.4;
+    margin: 2em auto 0 auto;
+    max-width: 45em;
+    padding: 0;
+  }
+  
+  .home-page h1 {
+    font-size: 1em;
+    margin: 1em 0 0 0;
+  }
+  
+  .specific-div footer {
+    background-color: #044ab2;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 40px 0; 
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  
+  .specific-div footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px; 
+  }
+  
+  .specific-div footer a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .home-page {
+      grid-template-columns: 1fr; 
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .right-image {
+      margin-left: 0; 
+    }
+  
+    .wrapper .button {
+      margin: 20px auto; 
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .home-page {
+      font-size: 16px; 
+    }
+  
+    .specific-div footer {
+      padding: 20px 0; 
+    }
+  
+    .social-icons-container {
+      flex-direction: column; 
+    }
+  
+    .social-icons {
+      margin-top: 10px; 
+    }
+  }
+  
