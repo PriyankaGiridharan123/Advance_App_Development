@@ -40,9 +40,12 @@
     background-color: #fcfcfc;
     color: rgb(6, 6, 6); 
   }
+  .payment-container input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); 
+  }
   /* Style radio button */
   /* .radio-buttons input[type="radio"] {
-    margin-right: 5px; /* Adjust spacing between radio button and label */
+    margin-right: 5px; 
   /* }  */
   
   /* .radio-buttons label {

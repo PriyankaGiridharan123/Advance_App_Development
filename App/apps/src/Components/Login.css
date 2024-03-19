@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+
 .containerr {
   position: absolute;
   top: 50%;
@@ -9,7 +10,7 @@
   max-width: 800px;
   padding: 40px;
   border-radius: 10px;
-  background-color: #cecccc;
+  background-color: rgba(206, 204, 204, 0.8);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   text-align: center;
 }

@@ -44,7 +44,7 @@ const jobApply=()=>{
           <img src="https://img.freepik.com/premium-vector/employment-agency-recruitment-placement-job-service-illustration_2175-5080.jpg?size=626&ext=jpg&ga=GA1.1.2085912591.1685513064&semt=ais" alt="Image 3" />
         </div>
       </div>
-      <div className="job-container">
+      <div className="job-containerr">
         <div className="job-item">
           <h2>Marketing Manager</h2>
           <p>Qualification: Bachelor's degree</p>

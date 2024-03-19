@@ -1,0 +1,25 @@
+.job-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .job-item {
+    width: 100%; /* Ensure job items take full width of the container */
+    max-width: 500px; /* Limit maximum width of each job item */
+    background-color: #f0f0f0; /* Background color of each job item */
+    border-radius: 10px; /* Rounded corners for the boxes */
+    padding: 20px; /* Padding inside each box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle 3D effect */
+    margin-bottom: 20px; /* Margin between job items */
+  }
+  
+  .job-item h2 {
+    color: #007bff; /* Color for job titles */
+    margin-bottom: 10px; /* Margin below job titles */
+  }
+  
+  .job-item p {
+    margin-bottom: 5px; /* Margin below each job detail */
+  }
+  

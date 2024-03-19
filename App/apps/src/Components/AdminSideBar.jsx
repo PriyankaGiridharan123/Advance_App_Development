@@ -24,13 +24,13 @@ export const AdminSidebarData = [
   },
   {
       title: 'View-Jobs',
-      path: '/#',
+      path: '/viewjob',
       icon: <FaIcons.FaEnvelopeOpenText />,
       cName: 'nav-text'
     },
     {
         title: 'Applications',
-        path: '/#',
+        path: '/applications',
         icon: <FaIcons.FaEnvelopeOpenText />,
         cName: 'nav-text'
     },
