@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css'; 
-import { BsLinkedin, BsInstagram, BsFacebook, BsYoutube, BsTwitter } from 'react-icons/bs';
+import { BsLinkedin, BsInstagram, BsFacebook, BsYoutube, BsTwitter, BsGithub } from 'react-icons/bs';
 function Footer() {
   return (
     <footer className="footer">
@@ -9,7 +9,7 @@ function Footer() {
           <div className="footer-col">
             <h4>company</h4>
             <ul>
-              <li><a href="#">About us</a></li>
+              <li><a href="/about">About us</a></li>
               <li><a href="#">Terms and Conditions</a></li>
               <li><a href="#">privacy</a></li>
               <li><a href="#">policy</a></li>
@@ -40,6 +40,9 @@ function Footer() {
           </a>
           <a className="text-white" href="https://twitter.com/">
             <BsTwitter className="text-white fs-4" />
+          </a>
+          <a className="text-white" href="https://twitter.com/">
+            <BsGithub className="text-white fs-4" />
           </a>
             </div>
           </div>

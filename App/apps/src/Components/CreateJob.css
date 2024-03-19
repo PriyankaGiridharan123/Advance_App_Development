@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.create-job-container *,
+.create-job-container *::before,
+.create-job-container *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+.create-job-container {
+  margin: 80px auto 0;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  background: #cfe2f3;
+  font-family: 'Poppins', sans-serif; 
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #fffcfc;
+  }
+  
+  .create-job-container .form-group {
+    background: #aed6f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 100%;
+    width: 800px;
+  }
+  
+  .create-job-container .container {
+    text-align: center;
+  }
+  .create-job-container h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 25px;
+  }
+
+  .create-job-container  p {
+    font-size: 18px;
+    color: #050506;
+  }
+  
+  .create-job-container .input {
+    margin: 20px 0;
+  }
+  
+  .create-job-container input[type="text"],
+.create-job-container input[type="date"],
+.create-job-container select {
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #fbfcfc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #3a3a3a;
+  color: rgb(251, 250, 250); 
+}
+
+.create-job-container input[type="text"]:focus,
+.create-job-container input[type="date"]:focus,
+.create-job-container select:focus {
+  border-color: #ffffff;
+}
+  .create-job-container .create-btn,
+  .create-job-container .cancel-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .create-job-container .create-btn {
+    background: #007bff;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .create-job-container .create-btn:hover {
+    background: #061b9f;
+  }
+  
+  .create-job-container .cancel-btn {
+    background: #cf4648;
+    color: #fff;
+  }
+  
+  .create-job-container .cancel-btn:hover {
+    background: #c6001e;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .create-job-container .form-group {
+      padding: 20px;
+    }
+  }
+  

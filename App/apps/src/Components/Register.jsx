@@ -10,6 +10,7 @@ const UserRegister= () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [conpassword, setConPassword] = useState('');
+  const [role, setRole] = useState('');
 
   const handleDetails = (e) => {
     e.preventDefault();
@@ -46,7 +47,7 @@ const UserRegister= () => {
   return (
     <div id="body">
       <div className="signup-form">
-        <div className="container">
+        <div className="containerr">
           <div className="header">
             <h1>Register an Account</h1>
             <p>Get started!</p>
@@ -85,6 +86,13 @@ const UserRegister= () => {
                 onChange={(e) => setAge(e.target.value)}
                 placeholder="Age"
               />
+            </div>
+            <div className="input">
+              <select value={role} onChange={(e) => setRole(e.target.value)}>
+                <option value="">Select Role</option>
+                <option value="applicant">Applicant</option>
+                <option value="admin">Admin</option>
+              </select>
             </div>
             <div className="input">
               <input

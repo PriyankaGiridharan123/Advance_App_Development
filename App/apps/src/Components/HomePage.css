@@ -7,6 +7,14 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.8;
+    width: 100%;
+    padding: 0px;
+  }
+  .specific-div p{
+    color: #000000;
+  }
+  .specific-div h1{
+    color: #000000;
   }
   
   .block-image {
@@ -40,7 +48,7 @@
   .searchIcon {
     position: absolute;
     top: 50%;
-    right: 250px;
+    right: 280px;
     transform: translateY(-50%);
     color: #135eaf; 
     cursor: pointer;

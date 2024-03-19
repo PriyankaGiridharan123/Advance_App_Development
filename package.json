@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "react-helmet-async": "^2.0.4",
     "react-icons": "^5.0.1",
     "react-router-dom": "^6.22.3",
     "validator": "^13.11.0"

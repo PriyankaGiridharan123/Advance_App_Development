@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import './Login.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 function AdminLogin() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const nav = useNavigate();
 
   const authenticate = (e) => {
     e.preventDefault();
@@ -17,13 +18,14 @@ function AdminLogin() {
       alert('Enter Password');
     } else {
       alert("Logged in Successfully!!");
+      nav('/admindashboard');
     }
   };
 
   return (
     <div id="body">
       <div className="login-form">
-        <div className="container">
+        <div className="containerr">
           <div className="header">
             <h1>Job Application Portal</h1>
             <p>Admin Login</p>
@@ -51,9 +53,7 @@ function AdminLogin() {
               value="LOGIN"
             />
           </form>
-          <Link to="/adminsignup">
-            <p>Don't have an account? Register</p>
-          </Link>
+        
         </div>
       </div>
     </div>

@@ -1,0 +1,82 @@
+.payment-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  .payment-container h1 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* .form-group {
+    margin-bottom: 20px;
+  } */
+/*   
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  } */
+/*   
+  .form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  } */
+  .payment-container input[type="text"],
+  .payment-container input[type="date"] {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #fbfcfc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fcfcfc;
+    color: rgb(6, 6, 6); 
+  }
+  /* Style radio button */
+  /* .radio-buttons input[type="radio"] {
+    margin-right: 5px; /* Adjust spacing between radio button and label */
+  /* }  */
+  
+  /* .radio-buttons label {
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button-group {
+    text-align: center;
+  }
+  
+  .submit-btn,
+  .cancel-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  } */
+  
+  /* .submit-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .cancel-btn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .submit-btn:hover,
+  .cancel-btn:hover {
+    opacity: 0.8;
+  } */
+  

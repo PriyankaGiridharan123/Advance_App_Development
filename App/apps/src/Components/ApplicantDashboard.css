@@ -1,0 +1,96 @@
+.navbar {
+    top: 0;
+    background-color: #135eaf;;
+    height: 60px;
+    left: 0; 
+    width: 100vw; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+  }
+  
+  .portal-name {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .menu-bars {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .menu-bars:hover .link-text, 
+.menu-bars:active .link-text { 
+  color: white;
+  text-decoration: underline;
+}
+  .menu-bars:hover .icon, 
+.menu-bars:active .icon { 
+  color: white;
+  text-decoration: underline;
+}
+  .icon {
+    margin-right: 5px;
+  }
+  
+  .link-text {
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .image-item img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 80px;
+  }
+  .job-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .job-item {
+    width: 30%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-item h2 {
+    color: #135eaf;
+    margin-bottom: 10px;
+  }
+  
+  .job-item p {
+    color: #333;
+    margin-bottom: 5px;
+  }
+  .apply-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+  
+  .apply-button:hover {
+    background-color: #fa0202;
+  }

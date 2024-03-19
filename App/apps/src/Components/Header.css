@@ -2,8 +2,8 @@
     background-color: #044ab2;
     padding: 10px 0;
     text-align: center;
+    margin: 0;
   }
-  
   .header-container {
     background-color:  #044ab2;
     padding: 20px 0 30px;
@@ -27,8 +27,6 @@
   nav a:hover {
     text-decoration: underline;
   }
-  
-  
   @media screen and (max-width: 1024px) {
     .header-container nav a {
         font-size: 16px; 

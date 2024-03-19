@@ -7,7 +7,7 @@ function Header() {
       <nav>
         <Link to="/"><strong>JOB SPARK |</strong></Link>
         <Link to="/applicantlogin">Applicant Login</Link>
-        <Link to="#">About us</Link>
+        <Link to="/about">About us</Link>
         <Link to="#">Contact Us</Link>
         <Link to="#">Support</Link>
         <Link to="/adminlogin">Admin Login</Link>

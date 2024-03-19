@@ -10,6 +10,7 @@ const AdminRegister= () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [conpassword, setConPassword] = useState('');
+  const [role, setRole] = useState('');
 
   const handleDetails = (e) => {
     e.preventDefault();
@@ -20,7 +21,7 @@ const AdminRegister= () => {
     const trimmedAge = age.trim();
     const trimmedPassword = password.trim();
     const trimmedConPassword = conpassword.trim();
-
+    
     if (
       trimmedAge.length === 0 ||
       trimmedEmail.length === 0 ||
@@ -46,7 +47,7 @@ const AdminRegister= () => {
   return (
     <div id="body">
       <div className="signup-form">
-        <div className="container">
+        <div className="containerr">
           <div className="header">
             <h1>Register as Admin</h1>
             <p>Get started!</p>
@@ -85,6 +86,13 @@ const AdminRegister= () => {
                 onChange={(e) => setAge(e.target.value)}
                 placeholder="Age"
               />
+            </div>
+            <div className="input">
+              <select value={role} onChange={(e) => setRole(e.target.value)}>
+                <option value="">Select Role</option>
+                <option value="admin">Admin</option>
+                <option value="applicant">Applicant</option>
+              </select>
             </div>
             <div className="input">
               <input
