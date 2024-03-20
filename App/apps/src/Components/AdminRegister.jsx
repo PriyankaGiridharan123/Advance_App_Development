@@ -46,7 +46,7 @@ const AdminRegister= () => {
 
   return (
     <div id="body">
-      <div className="signup-form">
+      <div className="signup-form" >
         <div className="containerr">
           <div className="header">
             <h1>Register as Admin</h1>

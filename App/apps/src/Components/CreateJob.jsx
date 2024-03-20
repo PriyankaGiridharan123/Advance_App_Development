@@ -21,11 +21,11 @@ const CreateJob = () => {
       return;
     }
     alert("Job created successfully!");
-    nav('/admindashboard');
+    nav('/viewjob');
   };
 
   return (
-    <div className="create-job-container">
+    <div className="create-job-container" >
       <div className="form-group">
         <div className="container">
           <h1>Create a Job</h1>

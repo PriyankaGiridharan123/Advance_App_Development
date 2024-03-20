@@ -45,7 +45,7 @@ const UserRegister= () => {
   };
 
   return (
-    <div id="body">
+    <div id="body" style={{ backgroundImage: "url('https://img.freepik.com/free-photo/3d-portrait-business-people_23-2150793953.jpg?t=st=1710836972~exp=1710840572~hmac=9ba9ea166ae8a797542eccc9ec7d255e687da50e0d56c72d68b4ccb8cb123c6b&w=1060')", backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
       <div className="signup-form">
         <div className="containerr">
           <div className="header">

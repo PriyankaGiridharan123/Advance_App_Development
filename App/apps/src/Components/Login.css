@@ -7,7 +7,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
-  max-width: 800px;
+  max-width: 500px;
   padding: 40px;
   border-radius: 10px;
   background-color: rgba(206, 204, 204, 0.8);
@@ -43,7 +43,39 @@
   max-width: 400px;
   margin: 0 auto;
 }
+.input {
+  position: relative; 
+  margin-bottom: 20px;
+}
 
+.input .icon {
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-50%);
+  right: 10px; 
+  cursor: pointer; 
+  color: #ccc; 
+}
+
+.input .icon svg {
+  width: 20px; 
+  height: 20px;
+}
+
+.input input,
+.input select {
+  width: calc(100% - 30px); 
+  padding-right: 30px;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  font-size: 16px; 
+}
+
+.input input::placeholder,
+.input select::placeholder {
+  color: #ccc; 
+}
 .input {
   margin-bottom: 20px;
 }
@@ -54,6 +86,7 @@
   display: block;
   margin-bottom: 8px;
 }
+
 
 .input input, .input select{
   width: 100%;

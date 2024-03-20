@@ -1,25 +1,49 @@
+.view-job-container {
+  background-image: url('https://img.freepik.com/free-photo/3d-rendering-cartoon-like-man-working-computer_23-2150797642.jpg?t=st=1710882951~exp=1710886551~hmac=cf9504844d69490b585de6fa48cd407693c9f25dc5371cce232cedcf640bc1d4&w=826');
+  background-size: cover;
+  background-position: right;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-heading {
+  color: #010101;
+}
+
 .job-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .job-item {
-    width: 100%; /* Ensure job items take full width of the container */
-    max-width: 500px; /* Limit maximum width of each job item */
-    background-color: #f0f0f0; /* Background color of each job item */
-    border-radius: 10px; /* Rounded corners for the boxes */
-    padding: 20px; /* Padding inside each box */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle 3D effect */
-    margin-bottom: 20px; /* Margin between job items */
-  }
-  
-  .job-item h2 {
-    color: #007bff; /* Color for job titles */
-    margin-bottom: 10px; /* Margin below job titles */
-  }
-  
-  .job-item p {
-    margin-bottom: 5px; /* Margin below each job detail */
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  width: 1500px;
+  margin-left: 500px;
+}
+
+.category-heading {
+  color: #007bff;
+  margin-bottom: 20px;
+  margin-left: -500px;
+}
+
+.premium-jobs,
+.free-jobs {
+  width: 48%;
+}
+
+.job-item {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-item h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.job-item p {
+  margin-bottom: 5px;
+}

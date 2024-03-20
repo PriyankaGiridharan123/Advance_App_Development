@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Login.css';
+import { FaUser, FaEye } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 function UserLogin() {
   const [username, setUsername] = useState('');
@@ -23,7 +24,8 @@ function UserLogin() {
   };
 
   return (
-    <div id="body">
+    
+    <div id="body" style={{ backgroundImage: "url('https://img.freepik.com/free-photo/3d-portrait-business-people_23-2150793953.jpg?t=st=1710836972~exp=1710840572~hmac=9ba9ea166ae8a797542eccc9ec7d255e687da50e0d56c72d68b4ccb8cb123c6b&w=1060')", backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
       <div className="login-form">
         <div className="containerr">
           <div className="header">
@@ -33,6 +35,7 @@ function UserLogin() {
 
           <form>
             <div className="input">
+            <FaUser className="icon" />
               <input
                 type="text"
                 onChange={(e) => setUsername(e.target.value)}
@@ -40,6 +43,7 @@ function UserLogin() {
               />
             </div>
             <div className="input">
+            <FaEye className="icon"/>
               <input
                 type="password"
                 onChange={(e) => setPassword(e.target.value)}
