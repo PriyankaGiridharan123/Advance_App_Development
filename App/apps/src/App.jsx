@@ -17,6 +17,8 @@ import About from './Components/About';
 import PaymentPage from './Components/Payment';
 import ViewJob from './Components/ViewJob';
 import Applications from './Components/Application';
+import ViewApplications from './Components/ViewApplication';
+import UserJobPosting from './Components/UserJobPosting';
 
 function App() {
   useEffect(() => {
@@ -41,6 +43,8 @@ function App() {
      <Route path="/payment" element={<PaymentPage/>}></Route>
      <Route path="/viewjob" element={<ViewJob/>}></Route>
      <Route path="/applications" element={<Applications/>}></Route>
+     <Route path="/viewapplications" element={<ViewApplications/>}></Route>
+     <Route path="/jobpostings" element={<UserJobPosting/>}></Route>
      </Routes>
      </BrowserRouter>
     </div>

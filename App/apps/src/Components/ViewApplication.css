@@ -1,0 +1,54 @@
+.application-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #c4edbc; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .application-container h1 {
+    color: #097203; 
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .application-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .application-container th, .application-container td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #333333; 
+    font-size: 18px;
+  }
+  
+  .application-container th {
+    background-color: #00a030; 
+    color: #fff;
+    text-align: left;
+  }
+  
+  .application-container tr:hover {
+    background-color: #e0e0e0; 
+  }
+  
+  .approval-message {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #3cb371; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .approval-message p {
+    color: #ffffff; 
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  

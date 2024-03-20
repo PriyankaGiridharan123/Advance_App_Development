@@ -114,13 +114,12 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 15px; /* Adjust padding for height */
+  padding: 15px; 
   border-radius: 5px;
-  margin-top: 150px; /* Adjust margin-top for positioning */
-  width: calc(100% - 20px); /* Reduce width by 20px */
-  height: 180px; /* Increase height */
+  margin-top: 150px; 
+  width: calc(100% - 20px); 
+  height: 180px; 
 }
-
 
 .card-inner {
   display: flex;
@@ -133,7 +132,7 @@ span {
 }
 
 .card:first-child {
-  background-color: #b7c5ec;
+  background-color: #92a4da;
 }
 
 .card:nth-child(2) {
@@ -164,17 +163,16 @@ h1 {
   text-align: center;
 }
 
-/* Pending Applications */
 .pending-applications {
   margin-left: 370px;
   padding: 20px;
-  background-color: #ffcdd2; /* Mild red */
+  background-color: #ffcdd2; 
   border-radius: 10px;
   width: 50%;
 }
 
 .pending-applications h2 {
-  color: #d32f2f; /* Dark red */
+  color: #d32f2f; 
   font-size: 24px;
   margin-bottom: 15px;
 }
@@ -184,7 +182,7 @@ h1 {
 }
 
 .pending-applications li {
-  background-color: #ffffff; /* White */
+  background-color: #ffffff; 
   padding: 15px;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -197,18 +195,17 @@ h1 {
   margin-bottom: 5px;
 }
 
-/* Premium Users */
 .premium-users {
   margin-left: 370px;
   padding: 20px;
-  background-color: #3f51b5; /* Dark blue */
+  background-color: #3f51b5;
   border-radius: 10px;
   color: #000;
   width: 50%;
 }
 
 .premium-users h2 {
-  color: #ffffff; /* White */
+  color: #ffffff; 
   font-size: 24px;
   margin-bottom: 15px;
 }
@@ -218,7 +215,7 @@ h1 {
 }
 
 .premium-users li {
-  background-color: #ffffff; /* White */
+  background-color: #ffffff; 
   padding: 15px;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -230,17 +227,16 @@ h1 {
   margin-bottom: 5px;
 }
 
-/* Recently Applied Jobs */
 .recently-applied-jobs {
   margin-left: 370px;
   padding: 20px;
-  background-color: #8b8a8a; /* Grey */
+  background-color: #8b8a8a; 
   border-radius: 10px;
   width: 50%;
 }
 
 .recently-applied-jobs h2 {
-  color: #d9d8d8; /* Dark grey */
+  color: #d9d8d8; 
   font-size: 24px;
   margin-bottom: 15px;
 }
@@ -250,7 +246,7 @@ h1 {
 }
 
 .recently-applied-jobs li {
-  background-color: #ffffff; /* White */
+  background-color: #ffffff; 
   padding: 15px;
   border-radius: 8px;
   margin-bottom: 10px;

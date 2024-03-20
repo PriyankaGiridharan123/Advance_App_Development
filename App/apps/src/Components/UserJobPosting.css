@@ -1,0 +1,50 @@
+/* UserJobPosting.css */
+
+.jobb-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .jobb-item {
+    flex: 0 0 calc(33.333% - 20px); 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .jobb-item:hover {
+    transform: translateY(-5px); /* Move the box slightly upwards on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect on hover */
+  }
+  
+  .jobb-item h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .jobb-item p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .apply-button {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-button:hover {
+    background-color: #0056b3;
+  }
+  
