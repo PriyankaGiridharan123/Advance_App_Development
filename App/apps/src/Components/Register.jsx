@@ -5,12 +5,10 @@ import { Link } from 'react-router-dom';
 
 const UserRegister= () => {
   const [phone, setPhone] = useState('');
-  const [age, setAge] = useState('');
   const [email, setEmail] = useState('');
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [conpassword, setConPassword] = useState('');
-  const [role, setRole] = useState('');
 
   const handleDetails = (e) => {
     e.preventDefault();
@@ -18,12 +16,10 @@ const UserRegister= () => {
     const trimmedUsername = username.trim();
     const trimmedEmail = email.trim();
     const trimmedPhone = phone.trim();
-    const trimmedAge = age.trim();
     const trimmedPassword = password.trim();
     const trimmedConPassword = conpassword.trim();
 
     if (
-      trimmedAge.length === 0 ||
       trimmedEmail.length === 0 ||
       trimmedPassword.length === 0 ||
       trimmedUsername.length === 0 ||
@@ -34,13 +30,10 @@ const UserRegister= () => {
       alert('Enter Valid Email!');
     } else if (trimmedPhone.length < 10) {
       alert('Enter Correct Phone Number!');
-    } else if (trimmedAge < 18 || trimmedAge > 65) {
-      alert('Enter Correct Age!');
     } else if (trimmedPassword !== trimmedConPassword) {
       alert('Password And Confirm Password Must be the same!');
     } else {
-      alert('Registered Successfully!!');
-      
+      alert('Registered Successfully!!'); 
     }
   };
 
@@ -78,21 +71,6 @@ const UserRegister= () => {
                 maxLength="10"
                 onChange={(e) => setPhone(e.target.value)}
               />
-            </div>
-            <div className="input">
-              <input
-                type="number"
-                value={age}
-                onChange={(e) => setAge(e.target.value)}
-                placeholder="Age"
-              />
-            </div>
-            <div className="input">
-              <select value={role} onChange={(e) => setRole(e.target.value)}>
-                <option value="">Select Role</option>
-                <option value="applicant">Applicant</option>
-                <option value="admin">Admin</option>
-              </select>
             </div>
             <div className="input">
               <input

@@ -22,7 +22,7 @@ const jobApply=()=>{
         </div>
         <Link to='/jobpostings' className='menu-bars'>
           <FaUserPlus className='icon' />
-          <span className='link-text'>Job Postings</span>
+          <span className='link-text'>Available Jobs</span>
         </Link>
         <Link to='/viewapplications' className='menu-bars'>
           <FaListAlt className='icon' />
