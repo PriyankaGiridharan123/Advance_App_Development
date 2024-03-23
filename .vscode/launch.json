@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-JobsparkApplication<jobspark>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.jobspark.JobsparkApplication",
+            "projectName": "jobspark",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

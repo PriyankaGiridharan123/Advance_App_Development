@@ -33,7 +33,7 @@ public class UserService {
         return userRepo.save(applicant);
     }
 
-    public UserEntity updateUser(@NonNull String email, Userdto dto){
+    public UserEntity updateApplicant(@NonNull String email, Userdto dto){
         return userRepo.findByEmail(email)
             .map(existingUser -> {
             existingUser.setUsername(dto.getUsername());
@@ -45,7 +45,7 @@ public class UserService {
         .orElseThrow(()-> new RuntimeException("Applicant not found with this email:"+email));
     }
 
-    public void deleteUser(int id){
+    public void deleteApplicant(int id){
         userRepo.deleteById(id);
     }
 }
