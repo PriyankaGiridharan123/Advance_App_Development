@@ -10,17 +10,21 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name="applicant")
+@Table(name="jobdetails")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class UserEntity {
+public class JobEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String username;
-    private String email;
-    private String phone;
-    private String password;
+    private String jobTitle;
+    private String department;
+    private String location;
+    private String responsibility;
+    private String qualification;
+    private String deadline;
+    private String category;
+    private String applicationFee;
 }
