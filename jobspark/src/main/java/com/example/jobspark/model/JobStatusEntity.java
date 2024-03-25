@@ -10,17 +10,16 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name="applyjob")
+@Table(name="jobstatus")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ApplyEntity {
+public class JobStatusEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String name;
-    private String contactNumber;
-    private String email;
-    private String gender;
-    private String age;
+    private String jobTitle;
+    private String amount;
+    private String status;
+    
 }

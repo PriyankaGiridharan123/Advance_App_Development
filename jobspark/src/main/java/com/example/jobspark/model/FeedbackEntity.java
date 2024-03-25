@@ -10,17 +10,15 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name="applyjob")
+@Table(name="feedback")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ApplyEntity {
+public class FeedbackEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
-    private String contactNumber;
     private String email;
-    private String gender;
-    private String age;
+    private String message;
 }
