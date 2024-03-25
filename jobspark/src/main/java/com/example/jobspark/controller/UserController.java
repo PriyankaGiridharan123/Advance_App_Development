@@ -33,7 +33,7 @@ public class UserController {
 
     @PostMapping("/createApplicant")
     public ResponseEntity <UserEntity> createApplicant(@NonNull @RequestBody UserEntity applicant){
-        UserEntity createdApplicant=applicantService.saveApplicant(applicant);
+        UserEntity createdApplicant=applicantService.createApplicant(applicant);
         return new ResponseEntity<>(createdApplicant,HttpStatus.CREATED);
     }
 

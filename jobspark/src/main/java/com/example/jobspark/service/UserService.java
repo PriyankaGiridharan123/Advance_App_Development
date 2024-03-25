@@ -5,6 +5,7 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.NonNull;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.example.jobspark.dto.Userdto;
@@ -17,20 +18,24 @@ public class UserService {
     @Autowired
     private UserRepository userRepo;
 
+    @Autowired
+    private PasswordEncoder passwordEncoder;
+
+
+    public UserEntity createApplicant(@NonNull UserEntity user){
+        user.setPassword(passwordEncoder.encode(user.getPassword()));
+        return userRepo.save(user);
+    }
+
+    public Optional<UserEntity> getApplicantByEmail(String email){
+        return userRepo.findByEmail(email);
+    }
     public List<UserEntity> getAllApplicant(){
         return userRepo.findAll();
     }
 
     public Optional<UserEntity> getApplicantById(int id){
         return userRepo.findById(id);
-    }
-
-    public Optional<UserEntity> getApplicantByEmail(String email){
-        return userRepo.findByEmail(email);
-    }
-
-    public UserEntity saveApplicant( @NonNull UserEntity applicant){
-        return userRepo.save(applicant);
     }
 
     public UserEntity updateApplicant(@NonNull String email, Userdto dto){
